@@ -8,6 +8,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;800&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 
+        <style>
+            body {
+  margin: 0;
+}
+        </style>
+
 
 
     </head>
@@ -16,20 +22,27 @@
     <body>
     
         <div class="header">
-            <h2>Espoonlahden Vihreät ry 
-<a href="index.html">ETUSIVU</a> 
+            <h1>Espoonlahden Vihreät ry</h1>
+        </div>            
+
+        <div class="topnav" id="myTopnav">
+            
+                <h2>
+                <a href="index.html">ETUSIVU</a> 
                 <a href="hallitus.html">HALLITUS</a>
                 <a href="ajankohtaista.html">AJANKOHTAISTA</a>
                 <a href="yhteydenotto.html">OTA YHTEYTTÄ</a>
-            </h2>
-            </div>            
+                <a href="" target="_blank">LIITY VIHREISIIN</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a></h2>
+            
+        </div>
+            
                 
         
 
     <div class="content">
-        <table style="width: 75%" align="center">
-            <tr>
-                <td style="width: 70%;">
             <h2>Tervetuloa Espoonlahden Vihreät Ry:n eli Elvi Ry:n internetsivuille!          </h2> 
             Elvi toimii Suur-Espoonlahden alueella. Puolustamme alueemme luontoa ja maisemia. Edistämme alueemme viihtyisyyttä ja ympäristömme laatua, tasa-arvoisuutta ja yhdenvertaisuutta. Demokratian tulee toimia kaikilla tasoilla. Teemme yhteistyötä alueen asukkaiden ja eri järjestöjen kanssa.<br><br>
 Kokoonnumme kerran kuussa keskustelemaan politiikasta ja aluettamme koskevista ajankohtaisista kysymyksistä. Järjestämme tapahtumia, ja teemme kannanottoja ja aloitteita tärkeiden asioiden puolesta.<br><br>
@@ -37,14 +50,7 @@ Yhdistyksen asioita hoitaa hallitus, johon kuuluu yhdistyksen syyskokouksessa va
 Osallistumme ja järjestämme paikallisia tapahtumia Suur-Espoonlahden alueella.<br><br>
 Syys- ja kevätkokoukset ovat yhdistyksen virallisia kokouksia, joissa päätetään mm. toimintasuunnitelmasta, hallituksesta sekä edustajista yhteistyötahoissa.<br><br>
 Yhdistyksen hallitus kokoontuu kerran kuukaudessa kaikille avoimeen kokoukseen, jossa päätetään yhdistyksen kannanotoista ajankohtaisiin asioihin sekä toimintasuunnitelman käytännön toteuttamisesta.<br><br>
-        </td>
-            
-    <td><p><img src="etusivu.png"></p>
-    <h2><a href="" target="_blank">LIITY VIHREISIIN</a></h2></td>
-</tr>
-    
-
-</table>
+        
     </div>
 
     <div class="footer">
@@ -68,6 +74,15 @@ Yhdistyksen hallitus kokoontuu kerran kuukaudessa kaikille avoimeen kokoukseen, 
         
 
     </div>
-
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
     </body>
 </html>
