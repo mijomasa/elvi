@@ -19,25 +19,25 @@ div {
 .topnav {
     overflow: hidden;
     margin: auto;
-    width: 70%;
     position: fixed;
     top: 0;
     width: 100%;
     color: #284734;
+    background-color: #284734;
     }
   
 .topnav a {
     padding: 14px 16px;
     color: #D9EA9A;
     padding: 10px 10px;
-    background-color: #284734;
+    
   }
   
   .topnav .icon {
     display: none;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 650px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -45,7 +45,7 @@ div {
     }
 }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 650px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -114,11 +114,20 @@ html,body {
 a:link, a:visited {
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #D9EA9A;
     }
+
+  .content a:link {
+    color: #F06400;
+  }
   
+  .footer a:link {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+  }
   td {
     text-align: justify;
     padding: 15px;
