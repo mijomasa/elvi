@@ -12,14 +12,14 @@ div {
     color: white;
     text-align: center;
     width: 100%;
-    min-height: 50px;
+    min-height: 120px;
     }
 
-    .topnav img {
-      width: 100%;
-      max-width: 120px;
-      height: auto;
-      padding: 10px;
+  .topnav img {
+     width: 100%;
+     max-width: 120px;
+     height: auto;
+     padding: 10px;
   }
 
 .topnav {
